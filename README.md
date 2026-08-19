@@ -159,7 +159,7 @@ for i_episode in range(num_episodes):
 
 ## Output
 
-
+Episodes: 20000
 Final Q-table:
 
 
@@ -172,24 +172,38 @@ Estimated State-Value Function:
 <img width="371" height="166" alt="Screenshot 2026-08-19 111548" src="https://github.com/user-attachments/assets/4d19df10-b7dc-4f31-bd94-e43aeccfd045" />
 
 
-
-
 Learned Policy:
 
 
 <img width="478" height="161" alt="Screenshot 2026-08-19 111616" src="https://github.com/user-attachments/assets/7f3762dd-d0f3-44cb-885c-5f17d6083b5c" />
 
-
-
-Average reward over last 1000 episodes: 0.939
+Average reward over last 10000 episodes: 0.939
 
 <img width="1047" height="604" alt="Screenshot 2026-08-19 111701" src="https://github.com/user-attachments/assets/44b84ba6-53cb-4636-bf84-f4f763cd1cd2" />
 
-
-
-
+---
 
 ---
+Episodes : 4000
+
+Final Q-table:
+
+<img width="581" height="659" alt="Screenshot 2026-08-19 112841" src="https://github.com/user-attachments/assets/a8ce49c2-8391-4dd8-974c-76397454082b" />
+
+
+Estimated State-Value Function:
+
+
+<img width="636" height="290" alt="Screenshot 2026-08-19 112905" src="https://github.com/user-attachments/assets/3ab5c3bf-c428-49e6-934f-ac20ea1a08e0" />
+
+
+Learned Policy:
+
+
+<img width="419" height="214" alt="Screenshot 2026-08-19 112937" src="https://github.com/user-attachments/assets/329dc0c8-def3-40a1-85e3-c3342f1436e1" />
+
+<img width="1074" height="705" alt="Screenshot 2026-08-19 113004" src="https://github.com/user-attachments/assets/69f90e19-15a8-463e-866c-78c3c8b204c2" />
+
 
 ## Result
 ```text
@@ -197,9 +211,8 @@ The Monte Carlo Control successfully trained an agent, achieving a high average 
 
 
 
-
 ```
----
+
 
 ## Inference
 ```text
